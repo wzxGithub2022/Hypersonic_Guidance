@@ -1,0 +1,201 @@
+
+MOSEK Version 9.3.17 (Build date: 2022-3-10 09:51:06)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: Windows/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 35773           
+  Cones                  : 0               
+  Scalar variables       : 23507           
+  Matrix variables       : 14              
+  Integer variables      : 0               
+
+Optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 3806
+Eliminator terminated.
+Eliminator started.
+Freed constraints in eliminator : 3106
+Eliminator terminated.
+Eliminator - tries                  : 2                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.02            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.09    
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 35773           
+  Cones                  : 0               
+  Scalar variables       : 23507           
+  Matrix variables       : 14              
+  Integer variables      : 0               
+
+Optimizer  - threads                : 6               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 22425
+Optimizer  - Cones                  : 1
+Optimizer  - Scalar variables       : 11096             conic                  : 696             
+Optimizer  - Semi-definite variables: 14                scalarized             : 192450          
+Factor     - setup time             : 16.11             dense det. time        : 0.00            
+Factor     - ML order time          : 3.59              GP order time          : 0.00            
+Factor     - nonzeros before factor : 1.02e+08          after factor           : 1.19e+08        
+Factor     - dense dim.             : 2                 flops                  : 1.14e+12        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   1.0e+00  1.0e+00  1.0e+00  0.00e+00   0.000000000e+00   0.000000000e+00   1.0e+00  16.59 
+1   5.3e-01  5.1e-01  1.3e-01  2.47e+00   2.443495416e-01   6.971108403e-02   5.1e-01  40.94 
+2   4.4e-01  4.3e-01  4.0e-02  8.54e+00   5.673204758e-02   2.537289414e-02   4.3e-01  64.58 
+3   3.8e-01  3.7e-01  3.6e-03  1.71e+01   1.337115920e-02   5.698321957e-03   3.7e-01  88.75 
+4   3.4e-01  3.3e-01  4.6e-03  2.15e+01   1.632614969e-03   6.650003794e-04   3.3e-01  114.16
+5   2.9e-01  2.8e-01  2.7e-03  5.44e+00   6.531262512e-04   2.653744896e-04   2.8e-01  137.84
+6   2.8e-01  2.7e-01  4.9e-03  1.76e+00   9.615665732e-04   2.333525849e-04   2.7e-01  161.52
+7   7.2e-02  7.0e-02  1.5e-03  2.00e+00   -1.709802286e-04  -4.703277485e-04  7.0e-02  186.41
+8   1.6e-02  1.6e-02  2.6e-04  -6.52e-01  3.598684332e-04   9.077684620e-05   1.6e-02  211.97
+9   3.1e-03  3.0e-03  8.3e-05  -9.71e-01  -2.344472721e-04  7.155472158e-05   3.0e-03  236.88
+10  4.2e-04  4.1e-04  2.8e-05  -9.96e-01  -4.193937073e-03  2.753453889e-05   4.1e-04  261.39
+11  2.2e-04  2.1e-04  1.9e-05  -9.86e-01  -7.403783228e-03  5.015113866e-05   2.1e-04  284.83
+12  1.5e-04  1.4e-04  1.4e-05  -9.43e-01  -9.720905693e-03  1.166087429e-04   1.4e-04  308.20
+13  1.2e-04  1.1e-04  1.1e-05  -7.17e-01  -8.887659061e-03  3.157534450e-04   1.1e-04  331.33
+14  1.1e-04  1.0e-04  9.4e-06  -2.23e-01  -7.546710090e-03  4.750660043e-04   1.0e-04  354.11
+15  8.7e-05  8.4e-05  4.9e-06  4.29e-01   -2.084635849e-03  1.075819869e-03   8.4e-05  378.02
+16  8.0e-05  7.8e-05  3.8e-06  1.66e+00   -5.752165006e-04  1.581288689e-03   7.8e-05  402.19
+17  6.8e-05  6.6e-05  2.3e-06  2.02e+00   1.430906715e-03   2.486583311e-03   6.6e-05  425.92
+18  5.0e-05  4.8e-05  1.1e-06  1.99e+00   2.861978204e-03   3.314281111e-03   4.8e-05  449.41
+19  1.3e-05  1.2e-05  1.1e-07  1.74e+00   3.963225642e-03   4.026878184e-03   1.2e-05  474.19
+20  2.8e-06  2.7e-06  8.7e-09  1.30e+00   4.245380255e-03   4.253179447e-03   2.7e-06  499.38
+21  1.4e-06  1.3e-06  2.6e-09  1.05e+00   4.450512485e-03   4.453458512e-03   1.3e-06  522.94
+22  1.2e-06  1.2e-06  2.3e-09  9.81e-01   4.581205122e-03   4.583886319e-03   1.2e-06  547.34
+23  1.1e-06  1.1e-06  2.0e-09  8.71e-01   4.862835009e-03   4.865372976e-03   1.1e-06  573.30
+24  1.0e-06  9.7e-07  1.8e-09  7.99e-01   5.099553365e-03   5.101916905e-03   9.7e-07  599.59
+25  8.6e-07  8.3e-07  1.4e-09  7.53e-01   5.445237025e-03   5.447343234e-03   8.3e-07  624.38
+26  7.7e-07  7.5e-07  1.2e-09  7.27e-01   5.620508530e-03   5.622420319e-03   7.5e-07  647.91
+27  6.6e-07  6.3e-07  9.8e-10  6.65e-01   5.976054433e-03   5.977804520e-03   6.3e-07  670.83
+28  6.3e-07  6.2e-07  9.4e-10  5.60e-01   5.999028133e-03   6.000704401e-03   6.2e-07  694.80
+29  5.5e-07  5.3e-07  8.2e-10  4.94e-01   6.661703397e-03   6.663470602e-03   5.3e-07  720.31
+30  5.4e-07  5.2e-07  7.9e-10  1.16e-01   6.640541289e-03   6.642233066e-03   5.2e-07  744.59
+31  5.2e-07  5.1e-07  7.7e-10  2.58e-01   6.777395277e-03   6.779087550e-03   5.1e-07  769.83
+32  5.0e-07  4.9e-07  6.9e-10  5.02e-01   6.580878887e-03   6.582328571e-03   4.9e-07  793.45
+33  3.6e-07  3.5e-07  4.3e-10  4.95e-01   7.193966499e-03   7.195070397e-03   3.5e-07  817.83
+34  3.0e-07  3.0e-07  3.4e-10  5.85e-01   7.481698282e-03   7.482660848e-03   3.0e-07  841.31
+35  1.5e-07  1.4e-07  1.2e-10  6.41e-01   8.126922057e-03   8.127401295e-03   1.4e-07  865.14
+36  1.1e-07  1.1e-07  7.9e-11  6.88e-01   8.379425460e-03   8.379806350e-03   1.1e-07  889.42
+37  8.4e-08  8.1e-08  5.5e-11  6.70e-01   8.575789374e-03   8.576099317e-03   8.1e-08  922.16
+38  5.6e-08  5.5e-08  3.2e-11  6.28e-01   8.849559144e-03   8.849797073e-03   5.4e-08  958.14
+39  3.9e-08  4.0e-08  2.0e-11  5.69e-01   9.090727565e-03   9.090920925e-03   3.8e-08  992.25
+40  2.5e-08  2.6e-08  1.1e-11  4.92e-01   9.370747581e-03   9.370906400e-03   2.4e-08  1027.78
+41  1.9e-08  2.2e-08  8.1e-12  4.51e-01   9.519011987e-03   9.519152877e-03   1.8e-08  1063.28
+42  9.9e-09  1.2e-08  3.7e-12  3.99e-01   9.866295032e-03   9.866407930e-03   9.6e-09  1099.84
+43  7.5e-09  8.4e-09  2.7e-12  3.45e-01   1.000483899e-02   1.000494363e-02   7.3e-09  1132.91
+44  5.4e-09  6.9e-09  1.8e-12  3.00e-01   1.017212193e-02   1.017221839e-02   5.2e-09  1167.00
+45  5.0e-09  6.1e-09  1.7e-12  3.06e-01   1.020361218e-02   1.020370516e-02   4.9e-09  1203.17
+46  3.2e-09  4.2e-09  9.6e-13  3.10e-01   1.040093946e-02   1.040101949e-02   3.1e-09  1237.64
+47  3.3e-09  3.1e-09  7.7e-13  3.38e-01   1.047593774e-02   1.047601286e-02   2.6e-09  1272.34
+48  3.1e-09  2.3e-09  5.4e-13  3.41e-01   1.059597431e-02   1.059604189e-02   1.9e-09  1305.19
+49  3.3e-09  2.3e-09  4.9e-13  3.48e-01   1.062655774e-02   1.062662362e-02   1.7e-09  1340.97
+50  3.4e-09  2.8e-09  4.7e-13  4.15e-01   1.063482399e-02   1.063488929e-02   1.7e-09  1377.16
+51  3.4e-09  2.2e-09  4.6e-13  3.63e-01   1.064310429e-02   1.064316910e-02   1.7e-09  1411.88
+52  3.4e-09  2.0e-09  4.6e-13  3.46e-01   1.064734464e-02   1.064740920e-02   1.7e-09  1448.61
+53  3.4e-09  2.0e-09  4.6e-13  4.26e-01   1.064741015e-02   1.064747471e-02   1.7e-09  1485.31
+54  3.4e-09  2.1e-09  4.6e-13  3.51e-01   1.064766294e-02   1.064772748e-02   1.7e-09  1523.45
+55  3.4e-09  2.1e-09  4.6e-13  3.60e-01   1.064779040e-02   1.064785494e-02   1.7e-09  1558.27
+56  3.4e-09  2.1e-09  4.6e-13  3.53e-01   1.064779040e-02   1.064785494e-02   1.7e-09  1594.11
+57  3.4e-09  2.1e-09  4.6e-13  3.53e-01   1.064779040e-02   1.064785494e-02   1.7e-09  1630.98
+Optimizer terminated. Time: 1665.84 
+
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: 1.0647790400e-02    nrm: 8e+00    Viol.  con: 1e-07    var: 0e+00    barvar: 0e+00  
+  Dual.    obj: 1.0647854941e-02    nrm: 2e+09    Viol.  con: 0e+00    var: 2e-09    barvar: 2e-08  
+Optimizer summary
+  Optimizer                 -                        time: 1665.84 
+    Interior-point          - iterations : 58        time: 1665.84 
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 0         time: 0.00    
+
+feasible, getting results...
+84 non-zero monomials
+Checking CCM conditions and Computing control bound...
+ i = 1 , calculating 
+ j = 1 , calculating 
+ j = 2 , calculating 
+ j = 3 , calculating 
+ j = 4 , calculating 
+ j = 5 , calculating 
+ j = 6 , calculating 
+ i = 2 , calculating 
+ j = 1 , calculating 
+ j = 2 , calculating 
+ j = 3 , calculating 
+ j = 4 , calculating 
+ j = 5 , calculating 
+ j = 6 , calculating 
+ i = 3 , calculating 
+ j = 1 , calculating 
+ j = 2 , calculating 
+ j = 3 , calculating 
+ j = 4 , calculating 
+ j = 5 , calculating 
+ j = 6 , calculating 
+ i = 4 , calculating 
+ j = 1 , calculating 
+ j = 2 , calculating 
+ j = 3 , calculating 
+ j = 4 , calculating 
+ j = 5 , calculating 
+ j = 6 , calculating 
+ i = 5 , calculating 
+ j = 1 , calculating 
+ j = 2 , calculating 
+ j = 3 , calculating 
+ j = 4 , calculating 
+ j = 5 , calculating 
+ j = 6 , calculating 
+ i = 6 , calculating 
+ j = 1 , calculating 
+ j = 2 , calculating 
+ j = 3 , calculating 
+ j = 4 , calculating 
+ j = 5 , calculating 
+ j = 6 , calculating 
+d_bar
+   8.7308e-06
+
+Control:
+    0.0531
+
+W:
+    0.9871
+
+    1.5558
+
+min eig CCM:
+ -143.4509
+
+max eig CCM:
+   5.7262e+03
+
+euc_bounds
+   1.0e-04 *
+
+    0.0863
+    0.0925
+    0.1071
+    0.1007
+    0.0864
+
+>> 
